@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wedding Invitation</title>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+
+<div id="env" role="button" tabindex="0" aria-label="Open invitation">
+  <h1 class="script" data-names>Fitha &amp; Yasseen</h1>
+  <div class="sub caps">are getting married!</div>
+  <div class="hint caps">Click envelope to open</div>
+</div>
+
+<section class="hero dark" style="max-width:none">
+  <h1 class="script" style="font-size:clamp(2.2rem,10vw,3.2rem);line-height:1.2;margin-bottom:12px">Fitha Noureen</h1>
+  <p style="font-size:1.8rem;font-family:'Playfair Display',Georgia,serif;font-style:italic;margin:8px 0;color:var(--beige)">&amp;</p>
+  <h1 class="script" style="font-size:clamp(2.2rem,10vw,3.2rem);line-height:1.2;margin-bottom:32px">Muhammed Yasseen</h1>
+  <div class="meta caps" style="text-align:center;line-height:1.9"><span data-date>Nikkah &middot; Saturday, 5 December 2026 &middot; 11 AM</span><br>Muvattupuzha</div>
+</section>
+
+<section class="light">
+  <div class="frame fade"><img src="assets/couple.jpg" alt="Couple holding hands"></div>
+  <p class="msg fade">As we begin our journey together, we’d love for you to join us in celebrating our big day. Your presence means the world to us, and we can’t wait to create unforgettable memories together. Let’s celebrate love, laughter, and happily ever after!</p>
+  <p class="msg fade" style="margin-top:18px">With Love,<br><span data-full>Fitha Noureen &amp; Muhammed Yasseen</span></p>
+  <p class="caps fade" style="margin-top:22px;color:var(--gold)">Nikkah</p><p class="msg fade">Saturday, 5 December 2026<br>11:00 AM</p>
+  <h2 class="script fade">Counting Down to Forever</h2>
+  <div class="cd fade" id="cd"><div><b>--</b><small>DAYS</small></div><i>:</i><div><b>--</b><small>HOURS</small></div><i>:</i><div><b>--</b><small>MINUTES</small></div><i>:</i><div><b>--</b><small>SECONDS</small></div></div>
+</section>
+
+<section class="info dark">
+  <div class="in">
+    <h3>NIKKAH INFO</h3>
+    <div class="tiny">The Nikkah will take place on:</div>
+    <div class="when"><div class="m">11:00 AM<br>SATURDAY</div><div class="d">5</div><div class="bar"></div><div class="m">DECEMBER<br>2026</div></div>
+    <div class="lbl">Nikkah</div><div class="big">11:00 AM</div>
+    <div class="lbl">Countdown</div><div id="cd2">--</div>
+    <div class="cal"><h4>December 2026</h4><div class="g" id="calg"></div></div>
+    <a class="addcal" id="addcal" target="_blank" rel="noopener" href="#">Add to Calendar</a>
+  </div>
+</section>
+
+
+
+<section class="gal" style="max-width:none">
+  <h2 class="script fade" style="margin-top:0">Gallery</h2>
+  <figure class="pol fade"><img src="assets/gallery.jpg" alt="Fitha and Muhammed as children"></figure>
+</section>
+
+<section class="famsec">
+  <h2 class="script fade" style="margin-top:0">Our Families</h2>
+  <div class="fgrid">
+    <div class="fbox fade">
+      <h4>Fitha Noureen</h4><div class="ln"></div>
+      <p>D/o Faisal PA<br>Fathima KA</p>
+      <p>Puthethu Moolayil House<br>Perumattom, Muvattupuzha</p>
+      <p>G/d of:<br>(Late) Alikunju<br>(Late) Nachi Ali Kunju</p>
+      <p>(Late) Ahammed Unni<br>(Late) Asiya Ahammed</p>
+    </div>
+    <div class="fbox fade">
+      <h4>Muhammed Yasseen</h4><div class="ln"></div>
+      <p>S/o (Late) Abdul Azeez KM<br>Sanitha Azeez</p>
+      <p>G/s/o (Late) Sayed KM<br>Nabeesa Sayed</p>
+      <p>Makkar MK<br>(Late) Fathima Makkar</p>
+      <p>Kanjirathamthadathil House<br>Randar P.O., Muvattupuzha</p>
+    </div>
+  </div>
+</section>
+
+<section class="dress" style="max-width:none;background:var(--greige);color:var(--ink);border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);padding:48px 26px">
+  <h3 class="fade">DRESS CODE</h3>
+  <div class="sw fade">
+    <div><i style="background:#f6efe4"></i>Ivory</div>
+    <div><i style="background:#ead9c0"></i>Beige</div>
+    <div><i style="background:#d3b99c"></i>Warm Taupe</div>
+    <div><i style="background:#c5a15a"></i>Soft Gold</div>
+    <div><i style="background:#e4ddd0"></i>Soft Greige</div>
+  </div>
+</section>
+
+<section class="dark" style="max-width:none">
+  <div style="max-width:480px;margin:0 auto">
+    <h2 class="script fade">The Venue</h2>
+    <div class="ov fade"><img src="assets/map.png" alt="Venue map" style="width:100%;height:100%;object-fit:cover"></div>
+    <div class="ven fade">Jacobs Convention Centre</div>
+    <p class="msg fade" style="color:var(--beige)">Muvattupuzha</p>
+    <a class="btn" href="https://maps.app.goo.gl/hPULLUxXaYnni52E9?g_st=iwb" target="_blank" rel="noopener">View Location</a>
+  </div>
+</section>
+
+<section class="rsvp dark" style="max-width:none">
+  <div style="max-width:480px;margin:0 auto">
+    <div class="wcard">
+      <h3>wishes box</h3>
+      <input id="wn" autocomplete="name" maxlength="60" placeholder="Enter your name*">
+      <textarea id="wm" rows="3" maxlength="400" placeholder="Enter your wishes*"></textarea>
+      <button id="wsend">SEND WISHES</button>
+      <div id="wl"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="dark">
+  <p class="caps" style="color:var(--beige)">With Love,</p>
+  <h2 class="script" data-names>Fitha &amp; Yasseen</h2>
+  <p class="caps fcer">Nikkah ceremony</p>
+  <p class="fdate">5 December 2026</p>
+  <p class="fbless">With Love and Blessings from Our Beloved<br>Families &amp; Friends</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
