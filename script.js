@@ -1,6 +1,6 @@
 /* ===== EDIT THESE ===== */
 var BRIDE = "Fitha Noureen";
-var GROOM = "Muhammed Yasseen";
+var GROOM = "Yasseen Muhammed";
 var WEDDING = "2026-12-05T11:00:00+05:30";
 var DATE_TEXT = "";
 /* ====================== */
