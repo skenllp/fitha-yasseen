@@ -1,11 +1,13 @@
 /* ===== EDIT THESE ===== */
 var BRIDE = "Fitha Noureen";
-var GROOM = "Yasseen Muhammed";
+var GROOM = "Muhammed Yasseen";
+var BRIDE_SHORT = "Fitha";
+var GROOM_SHORT = "Yasseen";
 var WEDDING = "2026-12-05T11:00:00+05:30";
 var DATE_TEXT = "";
 /* ====================== */
 (function(){
-  var B1=BRIDE.split(" ")[0], G1=GROOM.split(" ")[0]; var names = B1 + " & " + G1; var full = BRIDE + " & " + GROOM;
+  var B1=BRIDE_SHORT, G1=GROOM_SHORT; var names = B1 + " & " + G1; var full = BRIDE + " & " + GROOM;
   document.querySelectorAll("[data-full]").forEach(function(e){e.textContent=full});
   document.querySelectorAll("[data-names]").forEach(function(e){e.textContent=names});
   var n1 = document.querySelector("[data-n1]");
